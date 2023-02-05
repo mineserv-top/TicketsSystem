@@ -1,22 +1,31 @@
 {
     "token": "",
-    "prefix": ">",
+    "prefix": "",
 
     "adminRole": "",
 
     "Tickets": {
         "mainChannel": "",
-        "Parent1": {
+        "Category1": {
             "ChannelParent": "",
-            "TicketLabel": ""
+
+            "CateroryLabel": "Первая Категория",
+            "CategoryEmoji": "☺️",
+            "CategoryDescription": "Тута первая категория"
         },
-        "Parent2": {
+        "Category2": {
             "ChannelParent": "",
-            "TicketLabel": ""
+
+            "CateroryLabel": "Вторая Категория",
+            "CategoryEmoji": "😌",
+            "CategoryDescription": "тута вторая категория"
         },
-        "Parent3": {
+        "Category3": {
             "ChannelParent": "",
-            "TicketLabel": ""
+
+            "CateroryLabel": "Третья Категория",
+            "CategoryEmoji": "😊",
+            "CategoryDescription": "тута третья категория"
         }
     },
 

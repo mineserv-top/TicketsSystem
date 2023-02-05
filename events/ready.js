@@ -6,7 +6,7 @@ module.exports = {
         setTimeout(() => {
             sendmsg()
         }, 3000)
-        var sendChannel = client.channels.cache.get(client.config.mainChannel)
+        var sendChannel = client.channels.cache.get(client.config.Tickets.mainChannel)
         time = new Date()
         console.log('\x1b[1m\x1b[33m'+time+' \x1b[37m| \x1b[32mINFO \x1b[37m| \x1b[36mБот \x1b[33m'+client.user.username+' \x1b[36mзапустился.\x1b[0m')
         function clearOldMessages(sendChannel,nbr){
@@ -57,7 +57,7 @@ module.exports = {
             .setThumbnail(client.config.thumbImage)
             .setFooter(
                 {
-                    text: client.config.thumbText
+                    text: client.config.footerText
                 }
             )
             const row = new ActionRowBuilder()
