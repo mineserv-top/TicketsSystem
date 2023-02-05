@@ -1,4 +1,4 @@
-const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle} = require('discord.js')
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js')
 const config = require('./config.json')
 function del(msg,client){
     if (!msg.member.permissions.has("ADMINISTRATOR")) return msg.channel.send({content: '**Вы не можете использовать команды администратора.**'})
